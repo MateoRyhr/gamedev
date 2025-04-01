@@ -42,11 +42,11 @@ body {
 .header {
     background-color: var(--primary-color);
     color: var(--font-color);
-    height: 70px;
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 5px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -61,14 +61,14 @@ body {
 }
 
 .header h1 {
-    font-size: 1.8rem;
-    margin-left: 50px;
-    margin-right: 20px;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-right: 10px;
     color: var(--accent-color);
 }
 
 .header h3 {
-    font-size: .9rem;
+    font-size: .75rem;
 }
 
 .nav-list {
@@ -77,13 +77,13 @@ body {
 }
 
 .nav-list li {
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
 .nav-list a {
     color: var(--font-color);
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 7px 12px;
     border-radius: var(--border-radius);
     transition: var(--transition);
 }
